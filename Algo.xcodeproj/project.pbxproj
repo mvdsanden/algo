@@ -14,6 +14,7 @@
 		F4621F9D1B41DEC000DD5CFD /* QuickSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F9B1B41DEC000DD5CFD /* QuickSorter.cpp */; };
 		F4621FA01B43134E00DD5CFD /* BinaryHeapSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F9E1B43134E00DD5CFD /* BinaryHeapSorter.cpp */; };
 		F4621FA31B43294000DD5CFD /* CountingSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621FA11B43294000DD5CFD /* CountingSorter.cpp */; };
+		F4621FA61B432F1D00DD5CFD /* RadixSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621FA41B432F1D00DD5CFD /* RadixSorter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		F4621F9F1B43134E00DD5CFD /* BinaryHeapSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryHeapSorter.h; sourceTree = "<group>"; };
 		F4621FA11B43294000DD5CFD /* CountingSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSorter.cpp; sourceTree = "<group>"; };
 		F4621FA21B43294000DD5CFD /* CountingSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountingSorter.h; sourceTree = "<group>"; };
+		F4621FA41B432F1D00DD5CFD /* RadixSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadixSorter.cpp; sourceTree = "<group>"; };
+		F4621FA51B432F1D00DD5CFD /* RadixSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadixSorter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				F4621F9F1B43134E00DD5CFD /* BinaryHeapSorter.h */,
 				F4621FA11B43294000DD5CFD /* CountingSorter.cpp */,
 				F4621FA21B43294000DD5CFD /* CountingSorter.h */,
+				F4621FA41B432F1D00DD5CFD /* RadixSorter.cpp */,
+				F4621FA51B432F1D00DD5CFD /* RadixSorter.h */,
 			);
 			path = Algo;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 				F4621F9D1B41DEC000DD5CFD /* QuickSorter.cpp in Sources */,
 				F4621FA01B43134E00DD5CFD /* BinaryHeapSorter.cpp in Sources */,
 				F4621FA31B43294000DD5CFD /* CountingSorter.cpp in Sources */,
+				F4621FA61B432F1D00DD5CFD /* RadixSorter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
