@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F4621F8C1B41C14300DD5CFD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F8B1B41C14300DD5CFD /* main.cpp */; };
+		F4621F941B41C2CF00DD5CFD /* Sorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F931B41C2CF00DD5CFD /* Sorter.cpp */; };
+		F4621F971B41C43500DD5CFD /* LibCSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F951B41C43500DD5CFD /* LibCSorter.cpp */; };
+		F4621F9A1B41C7B500DD5CFD /* MergeSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F981B41C7B500DD5CFD /* MergeSorter.cpp */; };
+		F4621F9D1B41DEC000DD5CFD /* QuickSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F9B1B41DEC000DD5CFD /* QuickSorter.cpp */; };
+		F4621FA01B43134E00DD5CFD /* BinaryHeapSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F9E1B43134E00DD5CFD /* BinaryHeapSorter.cpp */; };
+		F4621FA31B43294000DD5CFD /* CountingSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621FA11B43294000DD5CFD /* CountingSorter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		F4621F881B41C14300DD5CFD /* Algo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algo; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4621F8B1B41C14300DD5CFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4621F921B41C23400DD5CFD /* Sorter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
+		F4621F931B41C2CF00DD5CFD /* Sorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sorter.cpp; sourceTree = "<group>"; };
+		F4621F951B41C43500DD5CFD /* LibCSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LibCSorter.cpp; sourceTree = "<group>"; };
+		F4621F961B41C43500DD5CFD /* LibCSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibCSorter.h; sourceTree = "<group>"; };
+		F4621F981B41C7B500DD5CFD /* MergeSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSorter.cpp; sourceTree = "<group>"; };
+		F4621F991B41C7B500DD5CFD /* MergeSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSorter.h; sourceTree = "<group>"; };
+		F4621F9B1B41DEC000DD5CFD /* QuickSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSorter.cpp; sourceTree = "<group>"; };
+		F4621F9C1B41DEC000DD5CFD /* QuickSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSorter.h; sourceTree = "<group>"; };
+		F4621F9E1B43134E00DD5CFD /* BinaryHeapSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryHeapSorter.cpp; sourceTree = "<group>"; };
+		F4621F9F1B43134E00DD5CFD /* BinaryHeapSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryHeapSorter.h; sourceTree = "<group>"; };
+		F4621FA11B43294000DD5CFD /* CountingSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSorter.cpp; sourceTree = "<group>"; };
+		F4621FA21B43294000DD5CFD /* CountingSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountingSorter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				F4621F8B1B41C14300DD5CFD /* main.cpp */,
+				F4621F921B41C23400DD5CFD /* Sorter.h */,
+				F4621F931B41C2CF00DD5CFD /* Sorter.cpp */,
+				F4621F951B41C43500DD5CFD /* LibCSorter.cpp */,
+				F4621F961B41C43500DD5CFD /* LibCSorter.h */,
+				F4621F981B41C7B500DD5CFD /* MergeSorter.cpp */,
+				F4621F991B41C7B500DD5CFD /* MergeSorter.h */,
+				F4621F9B1B41DEC000DD5CFD /* QuickSorter.cpp */,
+				F4621F9C1B41DEC000DD5CFD /* QuickSorter.h */,
+				F4621F9E1B43134E00DD5CFD /* BinaryHeapSorter.cpp */,
+				F4621F9F1B43134E00DD5CFD /* BinaryHeapSorter.h */,
+				F4621FA11B43294000DD5CFD /* CountingSorter.cpp */,
+				F4621FA21B43294000DD5CFD /* CountingSorter.h */,
 			);
 			path = Algo;
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4621F941B41C2CF00DD5CFD /* Sorter.cpp in Sources */,
+				F4621F971B41C43500DD5CFD /* LibCSorter.cpp in Sources */,
 				F4621F8C1B41C14300DD5CFD /* main.cpp in Sources */,
+				F4621F9A1B41C7B500DD5CFD /* MergeSorter.cpp in Sources */,
+				F4621F9D1B41DEC000DD5CFD /* QuickSorter.cpp in Sources */,
+				F4621FA01B43134E00DD5CFD /* BinaryHeapSorter.cpp in Sources */,
+				F4621FA31B43294000DD5CFD /* CountingSorter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +271,7 @@
 				F4621F911B41C14300DD5CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
