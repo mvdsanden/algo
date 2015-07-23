@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F450812B1B6136F30050FACB /* TopologicalSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F45081291B6136F30050FACB /* TopologicalSort.cpp */; };
 		F4621F8C1B41C14300DD5CFD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F8B1B41C14300DD5CFD /* main.cpp */; };
 		F4621F941B41C2CF00DD5CFD /* Sorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F931B41C2CF00DD5CFD /* Sorter.cpp */; };
 		F4621F971B41C43500DD5CFD /* LibCSorter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4621F951B41C43500DD5CFD /* LibCSorter.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F45081291B6136F30050FACB /* TopologicalSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopologicalSort.cpp; sourceTree = "<group>"; };
+		F450812A1B6136F30050FACB /* TopologicalSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopologicalSort.h; sourceTree = "<group>"; };
 		F4621F881B41C14300DD5CFD /* Algo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algo; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4621F8B1B41C14300DD5CFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F4621F921B41C23400DD5CFD /* Sorter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				F4621FA21B43294000DD5CFD /* CountingSorter.h */,
 				F4621FA41B432F1D00DD5CFD /* RadixSorter.cpp */,
 				F4621FA51B432F1D00DD5CFD /* RadixSorter.h */,
+				F45081291B6136F30050FACB /* TopologicalSort.cpp */,
+				F450812A1B6136F30050FACB /* TopologicalSort.h */,
 			);
 			path = Algo;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F450812B1B6136F30050FACB /* TopologicalSort.cpp in Sources */,
 				F4621F941B41C2CF00DD5CFD /* Sorter.cpp in Sources */,
 				F4621F971B41C43500DD5CFD /* LibCSorter.cpp in Sources */,
 				F4621F8C1B41C14300DD5CFD /* main.cpp in Sources */,
