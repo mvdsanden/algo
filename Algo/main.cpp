@@ -15,8 +15,10 @@
 #include "CountingSorter.h"
 #include "RadixSorter.h"
 
-int main(int argc, const char * argv[]) {
+#include "TopologicalSort.h"
 
+void sorting()
+{
     size_t length = 21;
     
     std::cout << "LibCSort:\n";
@@ -24,16 +26,16 @@ int main(int argc, const char * argv[]) {
     
     std::cout << "MergeSort:\n";
     me::MergeSorter s1; s1.test(length);
-
+    
     std::cout << "QuickSort:\n";
     me::QuickSorter s2; s2.test(length);
-
+    
     std::cout << "BinaryHeapSort:\n";
     me::BinaryHeapSorter s3; s3.test(length);
-
+    
     std::cout << "CountingSort:\n";
     me::CountingSorter s4; s4.test(length);
-
+    
     std::cout << "RadixSort:\n";
     me::RadixSorter s5; s5.test(length);
     
@@ -43,6 +45,19 @@ int main(int argc, const char * argv[]) {
     s3.bench(10000000, 1);
     s4.bench(10000000, 1);
     s5.bench(10000000, 1);
+}
+
+void topologicalSort()
+{
+    me::TopologicalSort t;
+    
+    t.dfs();
+}
+
+int main(int argc, const char * argv[]) {
+    //    sorting();
+    
+    topologicalSort();
     
     return 0;
 }
